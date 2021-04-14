@@ -50,7 +50,7 @@ params <- c(params, mrv)
 content <- c(params, 'content')
 doc <- getOpenDataRF(content)
 
-# Оставляем только те данные в которых присутствует поселок Пурпе
+# Оставляем данные с городом Суровикино
 doc <- doc[grep('г. Суровикино', doc$Address), c('Year2', 'Wall', 'TotalArea1', 'Address')]
 
 # Находим координаты с помощь имеющихся адрессов через API Yandex карт
