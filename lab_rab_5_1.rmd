@@ -1,7 +1,7 @@
 ---
 title: "Лабораторная работа 5"
 author: "Дымнич Алексей"
-date: "14 04 2021"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   html_document:
     self_contained: no
